@@ -1,0 +1,56 @@
+<html>
+<style>
+  header {
+  }
+  ul {
+    padding: 10px;
+    text-align: right;
+  }
+  li {
+    display: inline;
+    padding: 10px;
+    font-size: 15px;
+  }
+  body {
+    font-family: Lucida Grande;
+  }
+  h1 {
+    font-size: 22px;
+  }
+  button {
+    background: blue;
+    color: white;
+    border: 0;
+    padding: 10px;
+    font-size: 15px;
+  }
+  footer {
+    text-align: center;
+    font-size: 10;
+    padding: 10px 20px 10px 20px;
+  }
+</style>
+  <body>
+    <div>
+      <img src="acme-corp.jpg" alt="ACME Corp Logo"/>
+    </div>
+    <header>
+      <ul>
+        <li><a href="#">Products</a><li>
+        <button>Sign Up</button>
+      </ul>
+    </header>
+    <main>
+      <h1>Welcome to ACME Corp!</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ut felis
+      leo. Vivamus scelerisque ante sed massa luctus rhoncus. Duis congue, lorem
+      sit amet volutpat dignissim, ipsum turpis dapibus purus, sed rutrum lacus
+      eros vitae mauris. Mauris vel hendrerit dolor. Pellentesque at aliquam
+      neque. Quisque malesuada urna arcu, porta tristique urna accumsan sit amet.</p>
+
+      <p>Pellentesque bibendum lectus vel nisl posuere posuere a accumsan nisl.
+       Phasellus a quam at augue placerat tempor quis a lectus.</p>
+     </main>
+     <footer>Copyright, 2015</footer>
+  </body>
+</html>
