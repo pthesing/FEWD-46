@@ -1,18 +1,29 @@
 <html>
 <style>
   header {
+    padding: 0px 0px 40px 0px;
   }
   ul {
-    padding: 10px;
+    padding: 10px 0px 10px 0px;
     text-align: right;
+  }
+  nav {
+    float: right;
+    overflow: auto;
   }
   li {
     display: inline;
     padding: 10px;
     font-size: 15px;
   }
+  main {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 800px;
+  }
   body {
     font-family: Lucida Grande;
+    margin: 0;
   }
   h1 {
     font-size: 22px;
@@ -31,25 +42,19 @@
   }
 </style>
   <body>
-    <div>
-      <img src="acme-corp.jpg" alt="ACME Corp Logo"/>
-    </div>
     <header>
-      <ul>
-        <li><a href="#">Products</a><li>
-        <button>Sign Up</button>
-      </ul>
+      <img src="acme-corp.jpg" alt="ACME Corp Logo" height="75" width="275"/>
+      <nav>
+        <ul>
+          <li><a href="#">Products</a><li>
+            <button>Sign Up</button>
+        </ul>
+      </nav>
     </header>
     <main>
       <h1>Welcome to ACME Corp!</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ut felis
-      leo. Vivamus scelerisque ante sed massa luctus rhoncus. Duis congue, lorem
-      sit amet volutpat dignissim, ipsum turpis dapibus purus, sed rutrum lacus
-      eros vitae mauris. Mauris vel hendrerit dolor. Pellentesque at aliquam
-      neque. Quisque malesuada urna arcu, porta tristique urna accumsan sit amet.</p>
-
-      <p>Pellentesque bibendum lectus vel nisl posuere posuere a accumsan nisl.
-       Phasellus a quam at augue placerat tempor quis a lectus.</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ut felis leo. Vivamus scelerisque ante sed massa luctus rhoncus. Duis congue, lorem sit amet volutpat dignissim, ipsum turpis dapibus purus, sed rutrum lacus eros vitae mauris. Mauris vel hendrerit dolor. Pellentesque at aliquam neque. Quisque malesuada urna arcu, porta tristique urna accumsan sit amet.</p>
+      <p>Pellentesque bibendum lectus vel nisl posuere posuere a accumsan nisl. Phasellus a quam at augue placerat tempor quis a lectus.</p>
      </main>
      <footer>Copyright, 2015</footer>
   </body>
