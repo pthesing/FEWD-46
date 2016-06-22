@@ -24,6 +24,7 @@
   body {
     font-family: Lucida Grande;
     margin: 0;
+    background-image: url("http://f.cl.ly/items/3C0W1n1t1s0P1Z0w131r/background.png");
   }
   h1 {
     font-size: 22px;
