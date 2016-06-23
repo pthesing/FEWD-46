@@ -3,12 +3,13 @@
   header {
     padding: 5px 0px 10px 0px;
     border: 1px solid grey;
-    background: rgba(196,196,196,1)
+    background: rgba(196,196,196,1);
   }
   ul {
     padding: 10px 15px 10px 25px;
     text-align: right;
     text-decoration: none;
+    text-shadow: 1px 1px rgba(110,121,144,1);
   }
   nav {
     float: right;
@@ -29,6 +30,8 @@
     background: white;
     padding: 10px 20px 10px 20px;
     border-radius: 15px;
+    border-shadow: 1px 1px rgba(110,121,144,1);
+
   }
   body {
     font-family: Lucida Grande;
@@ -44,6 +47,7 @@
     border: 0;
     padding: 10px 15px 10px 15px;
     font-size: 15px;
+    border: 0.5px solid black;
     border-radius: 5px;
   }
   footer {
@@ -70,6 +74,7 @@
         Pellentesque at aliquam neque. Quisque malesuada urna arcu, porta tristique urna accumsan sit amet.</p>
       <p>Pellentesque bibendum lectus vel nisl posuere posuere a accumsan nisl. Phasellus a quam at augue placerat tempor quis a lectus.</p>
      </main>
+
      <footer>Copyright, 2015</footer>
   </body>
 </html>
