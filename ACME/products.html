@@ -4,6 +4,19 @@ header {
   border: 1px solid grey;
   background: rgba(196,196,196,1);
 }
+li.product {
+  margin-bottom: 1em;
+  overflow: auto;
+  float: left;
+  position: absolute;
+}
+li.product img {
+  float: left;
+  overflow: auto;
+}
+main {
+  position: relative;
+}
 </style>
 <html>
   <link rel="stylesheet" type="text/css" href="css/acmestyle.css" media="screen" />
@@ -22,6 +35,26 @@ header {
     <main>
         <h1>Products</h1>
         <p>For a complete list off products, please visit the Original Illustrated Catalog of ACME Products.</p>
+       <ul>
+         <li.product>
+           <img src="imgs/blasting.jpg">
+           <p></p>
+           <button>Details</button>
+           <button>Add to Cart</button>
+         </li.product>
+         <li.product>
+           <img src="imgs/hair.jpg">
+           <p></p>
+           <button>Details</button>
+           <button>Add to Cart</button>
+         </li.product>
+         <li.product>
+           <img src="imgs/jetuni.jpg">
+           <p></p>
+           <button>Details</button>
+           <button>Add to Cart</button>
+         </li.product>
+       </ul>
        </main>
     </header>
     <hr></hr>
