@@ -4,6 +4,10 @@ header {
   border: 1px solid grey;
   background: rgba(196,196,196,1);
 }
+ul.product {
+  overflow: auto;
+  float: left;
+}
 li.product {
   margin-bottom: 1em;
   overflow: auto;
@@ -25,9 +29,81 @@ p {
   font-weight: 200;
   float: left;
 }
+header {
+  padding: 5px 0px 15px 10px;
+  border: 1px solid grey;
+  background: rgba(196,196,196,1);
+}
+ul {
+  padding: 10px 15px 10px 25px;
+  text-align: right;
+  text-decoration: none;
+  text-shadow: 1px 1px rgba(110,121,144,1);
+}
+nav {
+  float: right;
+  overflow: auto;
+}
+li {
+  display: inline;
+  padding: 10px;
+  font-size: 15px;
+  color: white;
+}
+main {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 700px;
+  max-height: 300px;
+  border: 1px solid rgba(173,176,177,1);
+  background: white;
+  padding: 10px 20px 10px 20px;
+  border-radius: 15px;
+  box-shadow: 0px 0px 10px 1px rgba(119, 119, 119, 0.5);
+  margin-bottom: 1.5cm;
+  margin-top: 2cm;
+}
+hr {
+ display: block;
+ position: relative;
+ padding: 0;
+ margin: 8px auto;
+ height: 0;
+ width: 730px;
+ max-height: 0;
+ font-size: 1px;
+ line-height: 0;
+ clear: both;
+ border: none;
+ color: rgba(216,216,216,1);
+ border-top: 1px solid #aaaaaa;
+}
+body {
+  font-family: Lucida Grande;
+  margin: 0;
+  background-image: url("http://f.cl.ly/items/3C0W1n1t1s0P1Z0w131r/background.png");
+}
+h1 {
+  font-size: 22px;
+}
+button {
+  background: rgba(51,60,181,1);
+  color: white;
+  border: 0;
+  padding: 10px 15px 10px 15px;
+  font-size: 15px;
+  border: 0.5px solid black;
+  border-radius: 5px;
+  font-family: Lucida Grande;
+}
+footer {
+  text-align: center;
+  font-size: 10;
+  padding: 10px 10px 20px 10px;
+  color: rgba(173,176,177,1);
+}
 </style>
 <html>
-  <link rel="stylesheet" type="text/css" href="css/acmestyle.css" media="screen" />
   <body>
     <header>
       <img src="imgs/acme-corp.jpg" alt="ACME Corp Logo" height="70" width="275"/>
@@ -43,7 +119,7 @@ p {
     <main>
         <h1>Products</h1>
         <p>For a complete list off products, please visit the Original Illustrated Catalog of ACME Products.</p>
-       <ul>
+       <ul.product>
          <li.product>
            <img src="imgs/blasting.jpg">
            <p>Due to its highly volatile and explosive nature, do not ignite ACME Blasting Powder until you are in a safe location.</p>
@@ -59,10 +135,10 @@ p {
          <li.product>
            <img src="imgs/jetuni.jpg">
            <p>Another item in the ACME Jet Propelled Line of products is the ACME Jet Propelled Unicycle, which even the most unbalanced individual can ride with ease.</p>
-           <button>Details</button>
-           <button>Add to Cart</button>
+           <button.details>Details</button.details>
+           <button.add>Add to Cart</button.add>
          </li.product>
-       </ul>
+       </ul.product>
        </main>
     </header>
     <hr></hr>
