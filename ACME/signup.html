@@ -1,0 +1,73 @@
+<style>
+ label {
+   cursor: pointer;
+ }
+ ul {
+   display: inline-block;
+ }
+ header {
+   padding: 5px 0px 15px 10px;
+   border: 1px solid grey;
+   background: rgba(196,196,196,1);
+ }
+ p {
+   font-size: 15px;
+ }
+ input {
+   overflow: auto;
+   display: inline-block;
+   width: 220px;
+   border: 1.5px solid rgb (255, 176, 185);
+   border-radius: 5px;
+ }
+ label {
+   min-width: 200px;
+ }
+</style>
+
+<link rel="stylesheet" type="text/css" href="css/acmestyle.css" media="screen" />
+
+<html>
+  <head>
+    <title>ACME Corp</title>
+  </head>
+  <body>
+    <header>
+      <img src="imgs/acme-corp.jpg" alt="ACME Corp Logo" height="70" width="275"/>
+      <nav>
+        <ul>
+          <li>About ACME Corp<li>
+          <li>Contact Us<li>
+          <li>Products<li>
+            <button type="button" id="button1">Sign Up</button>
+        </ul>
+      </nav>
+     </header>
+  <body>
+    <main>
+      <h1>Sign Up</h1>
+      <form class="input" action="" method="post">
+      <div class "input">
+        <label for="first-name">First Name:</label>
+      <input id="first-name" type="text" placeholder="John">
+      </div>
+      <div class "input">
+        <label for="last-name">Last Name:</label>
+      <input id="last-name" type="text" placeholder="Doe">
+      </div>
+      <div class "input">
+        <label for="email">Email:</label>
+      <input id="email" type="text" placeholder="john.doe@example.com">
+      </div>
+      <div class "input">
+        <label for="password">Password:</label>
+        <input id="password" type="text">
+      </div>
+      </form>
+      <p><button type="button" id="button2"></button>Agree to our terms of service</p>
+      <button type="button" id="button3">Sign Up</button>
+    </main>
+    <hr></hr>
+    <footer>Copyright, 2015</footer>
+  </body>
+</html>
