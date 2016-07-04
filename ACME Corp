@@ -1,0 +1,97 @@
+<html>
+<style>
+  header {
+    padding: 5px 0px 10px 0px;
+    border: 1px solid grey;
+    background: rgba(196,196,196,1);
+  }
+  ul {
+    padding: 10px 15px 10px 25px;
+    text-align: right;
+    text-decoration: none;
+    text-shadow: 1px 1px rgba(110,121,144,1);
+  }
+  nav {
+    float: right;
+    overflow: auto;
+  }
+  li {
+    display: inline;
+    padding: 10px;
+    font-size: 15px;
+    color: white;
+  }
+  main {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 700px;
+    max-height: 300px;
+    border: 1px solid rgba(173,176,177,1);
+    background: white;
+    padding: 10px 20px 10px 20px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px 1px rgba(119, 119, 119, 0.5);
+    margin-bottom: 1.5cm;
+    margin-top: 2cm;
+  }
+  hr {
+   display: block;
+   position: relative;
+   padding: 0;
+   margin: 8px auto;
+   height: 0;
+   width: 730px;
+   max-height: 0;
+   font-size: 1px;
+   line-height: 0;
+   clear: both;
+   border: none;
+   color: rgba(173,176,177,1);
+   border-top: 1px solid #aaaaaa;
+   border-bottom: 1px solid #ffffff;
+}
+  body {
+    font-family: Lucida Grande;
+    margin: 0;
+    background-image: url("http://f.cl.ly/items/3C0W1n1t1s0P1Z0w131r/background.png");
+  }
+  h1 {
+    font-size: 22px;
+  }
+  button {
+    background: rgba(51,60,181,1);
+    color: white;
+    border: 0;
+    padding: 10px 15px 10px 15px;
+    font-size: 15px;
+    border: 0.5px solid black;
+    border-radius: 5px;
+  }
+  footer {
+    text-align: center;
+    font-size: 10;
+    padding: 10px 10px 20px 10px;
+    color: rgba(173,176,177,1);
+  }
+</style>
+  <body>
+    <header>
+      <img src="acme-corp.jpg" alt="ACME Corp Logo" height="75" width="275"/>
+      <nav>
+        <ul>
+          <li>Products<li>
+            <button>Sign Up</button>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h1>Welcome to ACME Corp!</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ut felis leo. Vivamus scelerisque ante sed massa luctus rhoncus.
+        Duis congue, lorem sit amet volutpat dignissim, ipsum turpis dapibus purus, sed rutrum lacus eros vitae mauris. Mauris vel hendrerit dolor.
+        Pellentesque at aliquam neque. Quisque malesuada urna arcu, porta tristique urna accumsan sit amet.</p>
+      <p>Pellentesque bibendum lectus vel nisl posuere posuere a accumsan nisl. Phasellus a quam at augue placerat tempor quis a lectus.</p>
+     </main>
+     <hr></hr>
+     <footer>Copyright, 2015</footer>
+  </body>
+</html>
