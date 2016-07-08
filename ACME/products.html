@@ -26,14 +26,16 @@ a {
 }
 main {
   position: relative;
-  height: 900px !important;
-  max-height: 900px !important;
+  max-height: 1000px !important;
   overflow: auto;
 }
 p {
   font-family: Lucida Grande;
   font-weight: 200;
   float: right !important;
+}
+p1 {
+  height: 900px !important;
 }
 header {
   padding: 5px 0px 15px 10px;
@@ -60,7 +62,6 @@ main {
   margin-left: auto;
   margin-right: auto;
   max-width: 700px;
-  max-height: 300px;
   border: 1px solid rgba(173,176,177,1);
   background: white;
   padding: 10px 20px 10px 20px;
@@ -110,7 +111,9 @@ footer {
 }
 </style>
 <html>
-  <title>ACME Corp - Products</title>
+  <head>
+    <title>ACME Corp - Products</title>
+  </head>
   <body>
     <header>
       <style type="text/css">a {text-decoration: none}</style>
@@ -125,9 +128,10 @@ footer {
       </nav>
      </header>
     <main>
-        <h1>Products</h1>
+      <p id="p1">
+       <h1>Products</h1>
         <p>For a complete list off products, please visit the Original Illustrated Catalog of ACME Products.</p>
-       <ul.product>
+       <ul class ="product">
          <li.product>
            <img src="imgs/blasting.jpg">
            <p>Due to its highly volatile and explosive nature, do not ignite ACME Blasting Powder until you are in a safe location.</p>
@@ -146,7 +150,8 @@ footer {
            <button type="button" name="button" value="details-button">Details</button>
            <button type="button" name="button" value="add-button">Add to Cart</button>
          </li.product>
-       </ul.product>
+       </ul class ="product">
+     </p>
        </main>
     </header>
     <hr></hr>
