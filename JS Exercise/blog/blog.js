@@ -1,7 +1,8 @@
 var link = document.querySelector(".like-link");
 var likeCount = document.querySelector(".like-count");
 var commentForm = document.querySelector("#new-comment");
-var comments =
+var commentBody = document.querySelector("#new-comment-body")
+var comments = document.querySelector("#comments");
 
 link.addEventListener("click", like);
 form.addEventListener("submit", comment);
@@ -16,10 +17,9 @@ function like(event) {
 function comment(event) {
   event.preventDefault();
 
-  varComment = document.createElement("div");
+  var comment = document.createElement("div");
   comment.setAttribute("class", "comment");
   comment.textContent = commentBody.value;
   comments.appendChild(comment);
   commentForm.reset();
-
 };
