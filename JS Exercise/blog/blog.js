@@ -5,7 +5,7 @@ var commentBody = document.querySelector("#new-comment-body")
 var comments = document.querySelector("#comments");
 
 link.addEventListener("click", like);
-form.addEventListener("submit", comment);
+commentForm.addEventListener("submit", createComment);
 
 function like(event) {
   event.preventDefault();
@@ -14,7 +14,7 @@ function like(event) {
   likeCount.textContent = count + 1;
   };
 
-function comment(event) {
+function createComment(event) {
   event.preventDefault();
 
   var comment = document.createElement("div");
