@@ -19,19 +19,20 @@
    line-height: 20px;
    margin-bottom: 1em;
  }
- .inputs:focus {
-   border: 1.5px solid rgb (76, 175, 80);
-   border-radius: 5px;
- }
+.text-input:focus {
+  border: 2px solid green;
+  border-radius: 5px;
+  outline: none;
+}
  .terms {
    display: inline;
    width: 20px;
-   margin-right: 20px;
-   margin-left: 25px;
+   margin-right: 25px;
+   margin-left: 20px;
  }
  #button3 {
    margin-right: 20px;
-   margin-left: 15px;
+   margin-left: 10px;
    margin-top: 10px;
  }
  .button {
@@ -175,25 +176,25 @@ label{
           <li class="inputs">
               <div class "input">
                 <label for="first-name">First Name:</label>
-                <input id="first-name" type="text" placeholder="John">
+                <input id="first-name" type="text" placeholder="John" class="text-input">
               </div>
             </li>
           <li class="inputs">
             <div class "input">
               <label for="last-name">Last Name:</label>
-              <input id="last-name" type="text" placeholder="Doe">
+              <input id="last-name" type="text" placeholder="Doe" class="text-input">
             </div>
           </li>
           <li class="inputs">
             <div class "input">
               <label for="email">Email:</label>
-              <input id="email" type="text" placeholder="john.doe@example.com">
+              <input id="email" type="text" placeholder="john.doe@example.com" class="text-input">
             </div>
           </li>
           <li class="inputs">
             <div class "input">
               <label for="password">Password:</label>
-              <input id="password" type="text">
+              <input id="password" type="text" class="text-input">
             </div>
           </li>
         </ul>
