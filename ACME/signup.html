@@ -16,11 +16,28 @@
    color: black;
    font-size: 12px;
    text-shadow: none;
+   line-height: 20px;
+   margin-bottom: 1em;
+ }
+ .inputs:focus {
+   border: 1.5px solid rgb (76, 175, 80);
+   border-radius: 5px;
  }
  .terms {
-   display: block;
+   display: inline;
+   width: 20px;
+   margin-right: 20px;
+   margin-left: 25px;
+ }
+ #button3 {
+   margin-right: 20px;
+   margin-left: 15px;
+   margin-top: 10px;
  }
  .button {
+   display: block;
+ }
+ form {
    display: block;
  }
  header {
@@ -47,8 +64,9 @@
    text-align: start;
    border-color: red;
  }
- label {
-   min-width: 220px;
+label{
+   width: 100px;
+   display: inline-block;
  }
  header {
    padding: 5px 0px 10px 0px;
@@ -62,7 +80,8 @@
    text-shadow: 1px 1px rgba(110,121,144,1);
  }
  .field {
-   text-align: right;
+   text-align: left;
+   display: block;
  }
  nav {
    float: right;
@@ -131,7 +150,7 @@
 
 <html>
   <head>
-    <title>ACME Corp</title>
+    <title>ACME Corp - Sign Up</title>
     <style type="text/css">a {text-decoration: none}</style>
   </head>
   <body>
@@ -150,9 +169,9 @@
   <body>
     <main>
       <h1>Sign Up</h1>
+      <form class="input" action="" method="post">
         <ul class="field">
           <li class="inputs">
-            <form class="input" action="" method="post">
               <div class "input">
                 <label for="first-name">First Name:</label>
                 <input id="first-name" type="text" placeholder="John">
@@ -177,9 +196,8 @@
             </div>
           </li>
         </ul>
-
-    <input type="checkbox" name="terms" class="terms"> <label>Agree to our terms of service.</label>
-  </form>
+      </form>
+      <input type="checkbox" name="terms" class="terms">Agree to our terms of service.
   <li class="button">
     <button type="button" id="button3">Sign Up</button>
   </li>
