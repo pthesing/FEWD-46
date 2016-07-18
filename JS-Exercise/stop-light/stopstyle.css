@@ -1,0 +1,45 @@
+div {
+  display: block;
+}
+
+.buttons {
+  text-align: center;
+  margin-top: 45px;
+}
+
+.container {
+  margin: 40px auto;
+  width: 200px;
+  height: 380px;
+  background-color: rgb(242, 197, 0);
+  padding: 10px 0px 10px 0px;
+  border: 1px solid rgb(215, 181, 30);
+  border-radius: 18px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.light {
+  margin-left: auto;
+  margin-right: auto;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  margin-top: 15px;
+  border-style: solid;
+  border-width: 6px 2px 1px 2px;
+  border color: black;
+  background-color: rgb(109, 87, 11);
+}
+
+.go-on {
+  background-color: green;
+}
+
+.slow-on {
+  background-color: yellow;
+}
+
+.stop-on {
+  background-color: red;
+}
