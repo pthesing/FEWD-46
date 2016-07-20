@@ -35,3 +35,15 @@ function enableGo(event) {
   yellow.classList.remove("slow-on");
   red.classList.remove("stop-on");
 }
+
+function enableCaution(event) {
+  event.preventDefault();
+
+  red.classList.remove("stop-on");
+  green.classList.remove("go-on");
+  timer = setInterval(flashSlow, 1000);
+}
+
+function flashSlow(event) {
+  yellow.classList.toggle("slow-on");
+}
