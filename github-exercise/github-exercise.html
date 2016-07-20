@@ -1,0 +1,48 @@
+<form>
+  <input type="text" id="query" placeholder="GitHub username">
+  <input type="submit" value="Lookup">
+</form>
+
+<table>
+  <tr>
+    <th>Name:</th>
+    <td id="user-name"></td>
+  </tr>
+  <tr>
+    <th>Bio:</th>
+    <td id="user-bio"></td>
+  </tr>
+  <tr>
+    <th>Picture:</th>
+    <td id="user-picture"></td>
+  </tr>
+</table>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+
+<script>
+var form = document.querySelector("form");
+var query = document.querySelector("#query");
+
+function get(url, callback) {
+  var request = new XMLHttpRequest();
+  
+  request.open("GET", url, true);
+  
+  request.addEventListener("readystatechange", handleReadyStateChange)
+  
+  function handleReadyStateChange() {
+    if (request.readyState == 4 && request.status == 200) {
+      callback(request.responseText);
+    }
+  };
+  
+  request.send();
+}
+
+function showUserInfo(response) {
+  console.log(response);
+}
+
+get("https://api.github.com/users/avand", showUserInfo);
+</script>

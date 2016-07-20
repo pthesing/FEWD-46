@@ -1,0 +1,16 @@
+<script>
+var request = new XMLHttpRequest();
+
+request.open("GET", "https://api.github.com/users/avand", true);
+
+request.addEventListener("readystatechange", handleReadyStateChange)
+
+function handleReadyStateChange() {
+  if (request.readyState == 4 && request.status == 200) {
+    var user = JSON.parse(request.responseText);
+    console.log(user.name);
+  }
+};
+
+request.send();
+</script>
