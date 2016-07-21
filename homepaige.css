@@ -28,6 +28,10 @@ header {
   padding: 0px 5px 10px 10px;
 }
 
+header a {
+  text-decoration: none;
+}
+
 .profile {
   height: 250px;
   width: 200px;
