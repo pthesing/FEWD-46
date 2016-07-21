@@ -1,3 +1,64 @@
 <style>
 
+body {
+  margin: 0 !important;
+  text-align: center;
+}
+div {
+  display: block;
+}
+
+header {
+  text-align: center;
+}
+
+.banner {
+  color: white;
+  height: 250px;
+  text-align: center;
+}
+
+.headline {
+  text-align: center;
+  font-size: 50px;
+  font-family: "Gill Sans", "Arial";
+  font-weight: lighter;
+  text-transform: uppercase;
+  color: black;
+  padding: 0px 5px 10px 10px;
+}
+
+.profile {
+  height: 250px;
+  width: 200px;
+  border-radius: 100%;
+  margin: 0 auto;
+  padding: 5px 10px 5px 10px;
+  display: block;
+}
+
+.menu {
+  position: absolute;
+  margin: 0 auto;
+  margin-top: 80px;
+  width: 100%;
+  padding: 2px;
+  background-color: black;
+  display: inline;
+}
+
+
+li {
+  display: inline;
+  padding: 0px 75px 0px 75px;
+  font-family: "Gill Sans", "Arial";
+  font-weight: lighter;
+  text-transform: uppercase;
+}
+
+li a {
+  text-decoration: none;
+  color: white;
+  padding: 5px;
+}
 </style>
