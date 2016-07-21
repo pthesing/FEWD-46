@@ -8,11 +8,11 @@ body {
 }
 
 main {
-  background-image: url("imgs/ocean.png");
-  margin-top: 20px;
+  background: url("imgs/ocean.png") fixed;
   height: 600px;
 }
 
+main
 
 div {
   display: block;
@@ -91,7 +91,7 @@ nav li a {
   margin-right: auto;
   display: block;
   margin-top: 130px;
-  height: 300px;
+  height: 270px;
   width: 700px;
   font-family: "Gill Sans", "Arial";
   font-weight: lighter;
