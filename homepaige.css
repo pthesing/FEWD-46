@@ -3,6 +3,8 @@
 body {
   margin: 0 !important;
   text-align: center;
+  font-family: "Gill Sans", "Arial";
+  font-weight: lighter;
 }
 div {
   display: block;
