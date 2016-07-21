@@ -2,13 +2,11 @@
 
 body {
   margin: 0 !important;
-  text-align: center;
   font-family: "Gill Sans", "Arial";
-  font-weight: lighter;
 }
 
 main {
-  background: url("imgs/ocean.png") fixed;
+  background: url("imgs/ocean-copy.png") fixed;
   height: 600px;
 }
 
@@ -23,7 +21,6 @@ div {
 .banner {
   color: white;
   height: 250px;
-  text-align: center;
 }
 
 .headline {
@@ -74,40 +71,18 @@ nav li a {
   padding: 5px;
 }
 
-.homework {
-  margin-top: 30px;
-  font-family: "Gill Sans", "Arial";
-  font-weight: lighter;
-}
-
-.homework a {
-  text-decoration: none;
-}
-
-.text-box {
+.welcome {
+  background-color: white;
   margin-left: auto;
   margin-right: auto;
-  display: block;
-  margin-top: 50px;
-  height: 270px;
-  width: 700px;
+  margin-top: -450px;
+  width: 600px;
+  height: 170px;
+  padding: 10px;
+  border-radius: 2px;
+  color: black;
   font-family: "Gill Sans", "Arial";
   font-weight: lighter;
-  font-size: 20px;
-  background: white;
-  padding: 5px 5px 5px 10px;
 }
 
-.text-box h1 {
-  font-family: "Gill Sans", "Arial";
-  font-weight: lighter;
-  text-transform: uppercase;
-  font-size: 35px;
-}
-
-.About-Me {
-  background: white;
-  height: 200px;
-  width: 300px;
-}
 </style>
