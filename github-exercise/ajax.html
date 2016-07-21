@@ -1,16 +1,23 @@
 <script>
-var request = new XMLHttpRequest();
+function get(url, callback) {
+  var request = new XMLHttpRequest();
 
-request.open("GET", "https://api.github.com/users/avand", true);
+  request.open("GET", url, true);
 
-request.addEventListener("readystatechange", handleReadyStateChange)
+  request.addEventListener("readystatechange", handleReadyStateChange)
 
-function handleReadyStateChange() {
-  if (request.readyState == 4 && request.status == 200) {
-    var user = JSON.parse(request.responseText);
-    console.log(user.name);
-  }
-};
+  function handleReadyStateChange() {
+    if (request.readyState == 4 && request.status == 200) {
+      var user = JSON.parse(request.responseText);
+      callback(user.name);
+    }
+  };
 
-request.send();
+  request.send();
+}
+get("https://api.github.com/users/avand", logResults);
+
+function logResults(response) {
+  console.log(response);
+}
 </script>
