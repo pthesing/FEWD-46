@@ -7,6 +7,13 @@ body {
   font-weight: lighter;
 }
 
+main {
+  background-image: url("imgs/ocean.png");
+  margin-top: 20px;
+  height: 600px;
+}
+
+
 div {
   display: block;
 }
@@ -80,14 +87,16 @@ nav li a {
 }
 
 .text-box {
-  margin-left: 90px;
-  margin-top: 190px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top: 130px;
   height: 300px;
   width: 700px;
   font-family: "Gill Sans", "Arial";
   font-weight: lighter;
   font-size: 20px;
-  background: red;
+  background: white;
   padding: 5px 5px 5px 10px;
 }
 
