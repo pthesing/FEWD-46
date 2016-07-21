@@ -1,0 +1,76 @@
+<style>
+
+body {
+  margin: 0 !important;
+  text-align: center;
+  font-family: "Gill Sans", "Arial";
+  font-weight: lighter;
+}
+
+main {
+  background: url("imgs/ocean.png") fixed;
+  height: 600px;
+}
+
+header {
+  padding: 0px 0px 80px 0px;
+}
+
+div {
+  display: block;
+}
+
+.banner {
+  color: white;
+  height: 250px;
+  text-align: center;
+}
+
+.headline {
+  text-align: center;
+  font-size: 50px;
+  font-family: "Gill Sans", "Arial";
+  font-weight: lighter;
+  text-transform: uppercase;
+  color: black;
+  padding: 0px 5px 10px 10px;
+}
+
+header a {
+  text-decoration: none;
+}
+
+.profile {
+  height: 250px;
+  width: 200px;
+  border-radius: 100%;
+  margin: 0 auto;
+  padding: 5px 10px 5px 10px;
+  display: block;
+}
+
+.menu {
+  position: absolute;
+  margin: 0 auto;
+  margin-top: 80px;
+  width: 100%;
+  padding: 2px;
+  background-color: black;
+  display: inline;
+}
+
+
+nav li {
+  display: inline;
+  padding: 0px 75px 0px 75px;
+  font-family: "Gill Sans", "Arial";
+  font-weight: lighter;
+  text-transform: uppercase;
+}
+
+nav li a {
+  text-decoration: none;
+  color: white;
+  padding: 5px;
+}
+</style>
