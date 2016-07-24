@@ -19,15 +19,16 @@
 </table>
 
 <script>
-
-var form = document.querySelector("form")
+var form = document.querySelector("form");
+var input = document.querySelector("#query");
 form.addEventListener("submit", doSomething);
 
 function doSomething(event) {
   event.preventDefault()
 
-  var input = document.querySelector("#query")
-  input.value = ("https://api.github.com/users" + input.value);
+  var url = ("http://api.github.com/users/" + input.value);
+
+  get(url, showInfo);
 
   function get(url, callback) {
     var request = new XMLHttpRequest();
@@ -39,24 +40,22 @@ function doSomething(event) {
     function handleReadyStateChange() {
       if (request.readyState == 4 && request.status == 200) {
         callback(request.responseText);
-        }
-      };
-      request.send();
-    }
-  function showInfo(data) {
-    var accountDeets = JSON.parse(data);
-    var userName = document.querySelector("#user-name");
-    userName.textContent = accountDeets.name
-    var userBio = document.querySelector("#user-bio");
-    userBio.textContent = accountDeets.bio
-    var img = document.createElement("img");
-    img.setAttribute("src", accountDeets.avatar_url);
-    document.querySelector().appendChild(img);
+      }
+    };
+
+    request.send();
   }
 
-function showUserInfo(response) {
-  console.log(response);
+  function showInfo(data){
+    var accountDeets = JSON.parse(data);
+    var userName = document.querySelector("#user-name");
+    userName.textContent = accountDeets.name;
+    var userBio = document.querySelector("#user-bio");
+    userBio.textContent = accountDeets.bio;
+    var img = document.createElement("img");
+    img.setAttribute("src", accountDeets.avatar_url);
+    var pic = document.querySelector("#user-picture");
+    pic.appendChild(img);
+  }
 }
-// This is just an example of calling the get function...
-get("https://api.github.com/users/avand", showUserInfo);
 </script>

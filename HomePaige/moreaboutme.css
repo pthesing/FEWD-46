@@ -104,7 +104,8 @@ nav li a {
   font-weight: lighter;
 }
 
-i {
-  color: rgb(7, 48, 60);
+.fa {
+  color: rgb(7, 48, 60);	
 }
+
 </style>
