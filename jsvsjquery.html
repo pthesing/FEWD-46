@@ -1,0 +1,10 @@
+//create a link and add to page
+
+var a = document.createElement("a");
+a.setAttribute("href", "http://example.com");
+var parent = document.querySelector("body");
+parent.appendChild(a);
+
+// CHAINING
+
+$("<a>").attr("href", "http://example.com").appendTo("body")
