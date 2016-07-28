@@ -43,12 +43,12 @@ button {
   border: 1px solid rgb(0, 173, 109);
 }
 
-#todo-list {
+#movie-list {
   margin: 0;
   padding: 0;
   list-style: none;
 }
-#todo-list li {
+#movie-list li {
   margin-top: 0.75em;
   padding-top: 0.75em;
 }
