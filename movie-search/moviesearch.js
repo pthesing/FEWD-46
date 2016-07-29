@@ -3,7 +3,7 @@ var input = document.querySelector("#movie-title-input");
 form.addEventListener("submit", whenSubmitted);
 
 function whenSubmitted(event) {
-  event.preventDefault;
+  event.preventDefault();
 
   var url = ("http://www.omdbapi.com/?s=" + input.value);
 
@@ -25,25 +25,22 @@ function whenSubmitted(event) {
     request.send();
   }
 
-  function showMovie(moviedata) {
+  function movieResults(moviedata) {
     var movie = JSON.parse(moviedata)
-    var movieTitle = movie.Title;
-    var movieYear = movie.Year;
     var list = document.querySelector("#movie-list");
-    var holder = document.createElement("li");
-    var name = document.createElement("div");
-    var hyperLink = document.createElement ("a");
-    var year = document.createElement("div");
+    var li = document.createElement("li");
+    var titlePlace = document.createElement("div");
+    var yearPlace = document.createElement("div");
 
-    hyperLink.textContent = movieTitle;
-    var url2 = "http://www.imdb.com/title/" + movie.imdbID;
-    hyperLink.setAttribute("href", url2);
-    year.textContent = movieYear;
+    yearPlace.textContent = movie.Year;
+    titlePlace.textContent = movie.Title;
 
-    list.appendChild(holder);
-    holder.appendChild(name);
-    name.appendChild(year);
+    list.appendChild(li);
+    li.appendChild(titlePlace);
+    li.appendChild(yearPlace);
 
-    holder.classList.add("movie-list");
+    li.classList.add("movie-list");
   }
+
+  form.reset;
 }
