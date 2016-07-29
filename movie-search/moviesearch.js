@@ -26,21 +26,24 @@ function whenSubmitted(event) {
   }
 
   function movieResults(moviedata) {
-    var movie = JSON.parse(moviedata)
-    var list = document.querySelector("#movie-list");
-    var li = document.createElement("li");
-    var titlePlace = document.createElement("div");
-    var yearPlace = document.createElement("div");
+    var movies = JSON.parse(moviedata)
 
-    yearPlace.textContent = movie.Year;
-    titlePlace.textContent = movie.Title;
+    movies.Search.forEach (listMovie);
 
-    list.appendChild(li);
-    li.appendChild(titlePlace);
-    li.appendChild(yearPlace);
+    function listMovie (movie, i) {
 
-    li.classList.add("movie-list");
+      var list = document.querySelector("#movie-list");
+      var li = document.createElement("li");
+      var titlePlace = document.createElement("div");
+      var yearPlace = document.createElement("div");
+      var title = movie.Title;
+      var year = movie.Year;
+
+      list.appendChild(li);
+      li.appendChild(titlePlace);
+      titlePlace.textContent = title;
+      li.appendChild(yearPlace);
+      yearPlace.textContent = year;
+    }
   }
-
-  form.reset;
 }

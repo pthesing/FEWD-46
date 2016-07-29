@@ -52,3 +52,7 @@ button {
   margin-top: 0.75em;
   padding-top: 0.75em;
 }
+
+div {
+  color: rgb(0, 173, 109);
+}
