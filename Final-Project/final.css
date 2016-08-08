@@ -1,24 +1,25 @@
 @import url(http://fonts.googleapis.com/css?family=Kaushan+Script);
 body {
-  background: #333;
+  background: white;
 }
 
-.raw {
+.props {
   height: 120px;
   width: 500px;
-  margin: auto;
-  position: absolute;
+  margin: 0 auto;
   top: 0;
   bottom: 0;
   left: 0;
   right: 0;
+  display: inline-block;
 }
+
 /* perspective */
 
 .flip-container {
   perspective: 1000;
   margin: 10px;
-  float: left;
+  display: inline-block;
 }
 /* turning on hover */
 
@@ -29,9 +30,9 @@ body {
 .flip-container,
 .front,
 .back {
-  width: 100px;
-  height: 100px;
-  line-height: 100px;
+  width: 250px;
+  height: 250px;
+  line-height: 250px;
   text-align: center;
   font-size: 30px;
   border-radius: 20px;
@@ -39,9 +40,8 @@ body {
 /* flipping speed here */
 
 .flipper {
-  transition: 0.6s;
+  transition: 0.7s;
   transform-style: preserve-3d;
-  position: relative;
 }
 /* making the the other side hidden while flipping */
 

@@ -2,6 +2,8 @@ var form = document.querySelector("#new-item-form");
 var input = document.querySelector("#new-item-input");
 var list = document.querySelector("#todo-list");
 
+form.addEventListener("submit", formSubmitted);
+loadPage();
 
 function createItem(todo) {
 
@@ -26,6 +28,21 @@ function formSubmitted(event) {
   input.value.split(", ").forEach(createItem);
 
   form.reset();
+
+  saveItem();
 }
 
-form.addEventListener("submit", formSubmitted);
+// WHEN the page loads
+function loadPage() {
+// - Look in localStorage to see if the HTML for the list is there
+// - IF the HTML is there
+//   - Set the HTML of the list to the HTML in localStorage
+  list.innerHTML = localStorage.getItem("listHTML");
+}
+// WHEN the user adds an item
+function saveItem() {
+// - Do all the normal stuff
+// - Once the item is added to the list
+// - Save the HTML of the list to localStorage
+  localStorage.setItem("list.HTML", list.innerHTML);
+}

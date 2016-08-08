@@ -1,0 +1,21 @@
+WHEN the page loads
+  var items = JSON.parse(localStorage.getItem("items"))
+
+
+  if (items != null) {
+    items.forEach(displayItem)
+  }
+
+WHEN the user submits a new item
+  take the value of the input
+  create a new item object
+  var item = { name: input.value }
+  displayItem(item)
+  var items = JSON.parse(localStorage.getItem("items"))
+
+  if (items == null) {
+    items = []
+  }
+  
+  items.push(item)
+  localStorage.setItem("items", JSON.stringify(item))
