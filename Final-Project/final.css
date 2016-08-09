@@ -4,9 +4,12 @@ body {
 }
 
 .intro {
-  background-color: rgb(0, 24, 102);
+  background: url("americanflag.png") fixed center;
+  background-color: rgb(0, 24, 102, 0.63);
+  background
   height: 700px;
   width: 1270px;
+  position: relative
 }
 
 .fa-check-square-o {
@@ -29,8 +32,19 @@ body {
   font-size: 60px;
   font-weight: 500;
   line-height: 1.1;
-  margin-top: 25px;
+  margin-top: 15px;
   margin-left: 402px;
+}
+
+.title p {
+  display: inline-block;
+  text-align: center;
+  color: #fff;
+  font-family: georgia;
+  font-size: 20px;
+  font-weight: 200;
+  margin-right: 200px;
+  margin-left: 200px;
 }
 
 .props {
@@ -38,6 +52,14 @@ body {
   width: 500px;
   margin-right: 10px;
   display: inline;
+}
+
+.front p {
+  font-family: sans-serif;
+  font-size: 40px;
+  color: #fff;
+  text-align: center;
+  margin-top: -10px;
 }
 
 /* perspective */
@@ -107,4 +129,25 @@ body {
   color: white;
   height: 250px;
   width: 275px;
+}
+
+.your-votes {
+  height: 500px;
+  width: 1270px;
+  background-color: rgb(93, 130, 192);
+  margin-top: 15px;
+}
+
+.your-votes h1 {
+  display: inline-block;
+  border-bottom: #fff 1px solid;
+  border-top: #fff 1px solid;
+  text-align: center;
+  color: #fff;
+  font-family: georgia;
+  font-size: 60px;
+  font-weight: 500;
+  line-height: 1.1;
+  margin-top: 40px;
+  margin-left: 490px;
 }
