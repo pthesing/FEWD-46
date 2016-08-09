@@ -3,6 +3,24 @@ body {
   background: white;
 }
 
+.intro {
+  background-color: rgb(0, 24, 102);
+  height: 700px;
+  width: 1270px;
+}
+
+.title h1 {
+  display: inline-block;
+  border-bottom: #fff 1px solid;
+  border-top: #fff 1px solid;
+  text-align: center;
+  color: #fff;
+  font-family: georgia;
+  font-size: 60px;
+  font-weight: 500;
+  line-height: 1.1;
+}
+
 .props {
   height: 120px;
   width: 500px;
@@ -63,6 +81,8 @@ body {
 .back {
   transform: rotateY(180deg);
   background-color: lightblue;
+  height: 250px;
+  width: 275px;
 }
 
 .back p {
@@ -70,7 +90,9 @@ body {
   margin-top: 0px;
   font-family: 'Kaushan Script', cursive;
   border: 1px solid white;
-  border-radius: 20px;
+  border-radius: 15px;
   background-color: #333;
   color: white;
+  height: 250px;
+  width: 275px;
 }
