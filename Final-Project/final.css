@@ -55,6 +55,13 @@ body {
   width: 500px;
   margin-right: 10px;
   display: inline;
+  background: url("voting.png") fixed center;
+}
+
+.props-layer {
+  background-color: rgba (53, 53, 53, 0.6);
+  height: 100%;
+  width: 100%;
 }
 
 .front p {
@@ -81,9 +88,9 @@ body {
 .flip-container,
 .front,
 .back {
-  width: 275px;
-  height: 250px;
-  line-height: 250px;
+  width: 280px;
+  height: 245px;
+  line-height: 2454px;
   text-align: center;
   font-size: 30px;
   border-radius: 15px;
