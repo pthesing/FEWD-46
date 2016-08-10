@@ -5,6 +5,10 @@
     border: 1px solid grey;
     background: rgba(196,196,196,1);
   }
+  .logo {
+    height:70;
+    width: 275;
+  }
   ul {
     padding: 10px 15px 10px 25px;
     text-align: right;
@@ -78,6 +82,21 @@
     padding: 10px 10px 20px 10px;
     color: rgba(173,176,177,1);
   }
+  @media (max-width: 550px) {
+    .logo {
+      margin-left: 10%;
+    }
+    header {
+      height: 170px;
+    }
+    nav {
+      display: block;
+      float: none;
+      margin: 0 auto;
+      margin-right: 26%;
+      text-align: center;
+    }
+  }
 </style>
 <html>
   <head>
@@ -86,7 +105,7 @@
   <body>
     <header>
     <a href="http://pthesing.github.io/FEWD-46/ACME/index.html">
-      <img src="imgs/acme-corp.jpg" alt="ACME Corp Logo" height="70" width="275"/>
+      <img src="imgs/acme-corp.jpg" alt="ACME Corp Logo" class="logo"/>
     </a>
       <style type="text/css">a {text-decoration: none}</style>
       <nav>
