@@ -89,7 +89,7 @@ body {
 }
 
 .front p {
-  font-family: sans-serif;
+  font-family: georgia;
   font-size: 40px;
   color: rgb(23, 95, 237);
   text-align: center;
@@ -157,7 +157,7 @@ body {
 .back p {
   font-size: 18px;
   margin-top: 0px;
-  font-family: 'Kaushan Script', cursive;
+  font-family: georgia;
   border: 1px solid white;
   border-radius: 15px;
   background-color: #333;
