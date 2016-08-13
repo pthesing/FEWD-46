@@ -1,0 +1,7 @@
+.box {
+  width: 100px;
+  height: 100px;
+  margin: 100px auto;
+  border-radius: 0px;
+  transition: border-radius 500ms;
+}
