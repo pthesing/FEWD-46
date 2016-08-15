@@ -30,6 +30,12 @@ function voteNo51 () {
   prop51.appendChild(voteNo51);
 }
 
+//Putting results in Table
+  //If "yes" is checked,
+    //add green check mark
+  //If "no" is checked,
+    //add red x mark
+
 //52
 var yes52 = document.querySelector("#yes52");
 yes52.addEventListener("click", voteYes52);
@@ -70,7 +76,7 @@ function voteYes53 () {
   var yesText = document.createTextNode("You should vote YES");
   voteYes53.appendChild(yesText);
 
-  var prop51 = document.querySelector(".prop53");
+  var prop53 = document.querySelector(".prop53");
   prop53.appendChild(voteYes51);
 }
 
@@ -201,12 +207,12 @@ function voteNo57 () {
   voteNo57.appendChild(noText);
 
   var prop57 = document.querySelector(".prop57");
-  prop57.appendChild(voteNo51);
+  prop57.appendChild(voteNo57);
 }
 
 //58
 var yes58 = document.querySelector("#yes58");
-yes58.addEventListener("click", voteYes51);
+yes58.addEventListener("click", voteYes58);
 
 function voteYes58 () {
   var voteYes58 = document.createElement("div");
@@ -216,11 +222,11 @@ function voteYes58 () {
   voteYes58.appendChild(yesText);
 
   var prop58 = document.querySelector(".prop58");
-  prop51.appendChild(voteYes51);
+  prop58.appendChild(voteYes58);
 }
 
 var no58 = document.querySelector("#no58");
-no51.addEventListener("click", voteNo51);
+no58.addEventListener("click", voteNo58);
 
 function voteNo58 () {
   var voteNo58 = document.createElement("div");
@@ -229,8 +235,8 @@ function voteNo58 () {
   var noText = document.createTextNode("You should vote NO");
   voteNo58.appendChild(noText);
 
-  var prop58 = document.querySelector(".prop51");
-  prop51.appendChild(voteNo51);
+  var prop58 = document.querySelector(".prop58");
+  prop58.appendChild(voteNo58);
 }
 
 //59
@@ -278,7 +284,7 @@ function voteYes60 () {
 }
 
 var no60 = document.querySelector("#no60");
-no51.addEventListener("click", voteNo60);
+no60.addEventListener("click", voteNo60);
 
 function voteNo60 () {
   var voteNo60 = document.createElement("div");
@@ -303,7 +309,7 @@ function voteYes61 () {
   voteYes61.appendChild(yesText);
 
   var prop61 = document.querySelector(".prop61");
-  prop60.appendChild(voteYes61);
+  prop61.appendChild(voteYes61);
 }
 
 var no61 = document.querySelector("#no61");
@@ -493,12 +499,6 @@ function voteNo67 () {
   var prop67 = document.querySelector(".prop67");
   prop67.appendChild(voteNo67);
 }
-
-
-
-//When no is checked
-  //display appropriate vote
-  //put data in table at the bottom
 
 
 //click to enlarge
