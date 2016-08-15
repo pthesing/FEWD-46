@@ -197,6 +197,11 @@ body {
   font-size: 18px;
 }
 
+.nocheck {
+  height: 20px !important;
+  width: 40px !important;
+}
+
 .your-votes {
   height: 500px;
   width: 100%;
