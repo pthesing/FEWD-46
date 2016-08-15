@@ -202,6 +202,15 @@ body {
   width: 40px !important;
 }
 
+.voteYes {
+  height: 40px;
+  width: 280px;
+  margin: 0 auto;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
 .your-votes {
   height: 500px;
   width: 100%;
