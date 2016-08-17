@@ -229,10 +229,6 @@ body {
   position: absolute;
 }
 
-.hidden {
-  display: none;
-}
-
 .voteAlerts {
   height: 40px;
   width: 280px;
@@ -298,6 +294,10 @@ td {
   height: 10px;
   z-index: 0;
   position: absolute;
+}
+
+.hidden {
+  display: none !important;
 }
 
 th,
