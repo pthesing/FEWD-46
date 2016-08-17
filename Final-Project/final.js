@@ -1,6 +1,3 @@
-//When yes is checked
-  //display appropriate vote
-
 //51
   $(function() {
     $("#yes51").on("click", function() {
@@ -19,21 +16,21 @@
     });
 
   //Table conditional
-  $(function() {
-    $("#yes51").on("click", function() {
-      if ($('#check51').hasClass("hidden"))
-        $("#check51").removeClass("hidden");
-        else $("#check51").addClass("hidden");
-      });
-    });
-
     $(function() {
-      $("#no51").on("click", function() {
-        if ($('#x51').hasClass("hidden"))
-        $("#x51").removeClass("hidden");
-        else $("#x51").addClass("hidden");
+      $("#yes51").on("click", function() {
+        if ($('#check51').hasClass("hidden"))
+          $("#check51").removeClass("hidden");
+          else $("#check51").addClass("hidden");
+        });
       });
-    });
+
+      $(function() {
+        $("#no51").on("click", function() {
+          if ($('#x51').hasClass("hidden"))
+          $("#x51").removeClass("hidden");
+          else $("#x51").addClass("hidden");
+        });
+      });
 
 //52
   $(function() {
