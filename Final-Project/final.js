@@ -2,33 +2,22 @@
   //display appropriate vote
 
 //51
-var yes51 = document.querySelector("#yes51");
-yes51.addEventListener("click", voteYes51);
+$(function() {
+  $("#yes51").on("click", function() {
+    if ($('#voteYes51').hasClass("hidden"))
+      $("#voteYes51").removeClass("hidden");
+    else $("#voteYes51").addClass("hidden");
+  });
+});
 
-function voteYes51 () {
-  var voteYes51 = document.createElement("div");
-  voteYes51.setAttribute("class", "voteYes");
+$(function() {
+  $("#no51").on("click", function() {
+    if ($('#voteNo51').hasClass("hidden"))
+      $("#voteNo51").removeClass("hidden");
+    else $("#voteNo51").addClass("hidden");
+  });
+});
 
-  var yesText = document.createTextNode("You should vote YES");
-  voteYes51.appendChild(yesText);
-
-  var prop51 = document.querySelector(".prop51");
-  prop51.appendChild(voteYes51);
-}
-
-var no51 = document.querySelector("#no51");
-no51.addEventListener("click", voteNo51);
-
-function voteNo51 () {
-  var voteNo51 = document.createElement("div");
-  voteNo51.setAttribute("class", "voteNo");
-
-  var noText = document.createTextNode("You should vote NO");
-  voteNo51.appendChild(noText);
-
-  var prop51 = document.querySelector(".prop51");
-  prop51.appendChild(voteNo51);
-}
 
 //Putting results in Table
   //If "yes" is checked,
@@ -499,6 +488,9 @@ function voteNo67 () {
   var prop67 = document.querySelector(".prop67");
   prop67.appendChild(voteNo67);
 }
+
+
+//Table conditional
 
 
 //click to enlarge
