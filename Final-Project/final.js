@@ -18,479 +18,284 @@ $(function() {
   });
 });
 
+//52
+$(function() {
+  $("#yes52").on("click", function() {
+    if ($('#voteYes52').hasClass("hidden"))
+      $("#voteYes52").removeClass("hidden");
+    else $("#voteYes52").addClass("hidden");
+  });
+});
 
+$(function() {
+  $("#no52").on("click", function() {
+    if ($('#voteNo52').hasClass("hidden"))
+      $("#voteNo52").removeClass("hidden");
+    else $("#voteNo52").addClass("hidden");
+  });
+});
+
+//53
+$(function() {
+  $("#yes53").on("click", function() {
+    if ($('#voteYes53').hasClass("hidden"))
+      $("#voteYes53").removeClass("hidden");
+    else $("#voteYes53").addClass("hidden");
+  });
+});
+
+$(function() {
+  $("#no53").on("click", function() {
+    if ($('#voteNo53').hasClass("hidden"))
+      $("#voteNo53").removeClass("hidden");
+    else $("#voteNo53").addClass("hidden");
+  });
+});
+
+//54
+$(function() {
+  $("#yes54").on("click", function() {
+    if ($('#voteYes54').hasClass("hidden"))
+      $("#voteYes54").removeClass("hidden");
+    else $("#voteYes54").addClass("hidden");
+  });
+});
+
+$(function() {
+  $("#no54").on("click", function() {
+    if ($('#voteNo54').hasClass("hidden"))
+      $("#voteNo54").removeClass("hidden");
+    else $("#voteNo54").addClass("hidden");
+  });
+});
+
+//55
+$(function() {
+  $("#yes55").on("click", function() {
+    if ($('#voteYes55').hasClass("hidden"))
+      $("#voteYes55").removeClass("hidden");
+    else $("#voteYes55").addClass("hidden");
+  });
+});
+
+$(function() {
+  $("#no55").on("click", function() {
+    if ($('#voteNo55').hasClass("hidden"))
+      $("#voteNo55").removeClass("hidden");
+    else $("#voteNo55").addClass("hidden");
+  });
+});
+
+//56
+$(function() {
+  $("#yes56").on("click", function() {
+    if ($('#voteYes56').hasClass("hidden"))
+      $("#voteYes56").removeClass("hidden");
+    else $("#voteYes56").addClass("hidden");
+  });
+});
+
+$(function() {
+  $("#no56").on("click", function() {
+    if ($('#voteNo56').hasClass("hidden"))
+      $("#voteNo56").removeClass("hidden");
+    else $("#voteNo56").addClass("hidden");
+  });
+});
+
+//57
+$(function() {
+  $("#yes57").on("click", function() {
+    if ($('#voteYes57').hasClass("hidden"))
+      $("#voteYes57").removeClass("hidden");
+    else $("#voteYes57").addClass("hidden");
+  });
+});
+
+$(function() {
+  $("#no57").on("click", function() {
+    if ($('#voteNo57').hasClass("hidden"))
+      $("#voteNo57").removeClass("hidden");
+    else $("#voteNo57").addClass("hidden");
+  });
+});
+
+//58
+$(function() {
+  $("#yes58").on("click", function() {
+    if ($('#voteYes58').hasClass("hidden"))
+      $("#voteYes58").removeClass("hidden");
+    else $("#voteYes58").addClass("hidden");
+  });
+});
+
+$(function() {
+  $("#no58").on("click", function() {
+    if ($('#voteNo58').hasClass("hidden"))
+      $("#voteNo58").removeClass("hidden");
+    else $("#voteNo58").addClass("hidden");
+  });
+});
+
+//59
+$(function() {
+  $("#yes59").on("click", function() {
+    if ($('#voteYes59').hasClass("hidden"))
+      $("#voteYes59").removeClass("hidden");
+    else $("#voteYes59").addClass("hidden");
+  });
+});
+
+$(function() {
+  $("#no59").on("click", function() {
+    if ($('#voteNo59').hasClass("hidden"))
+      $("#voteNo59").removeClass("hidden");
+    else $("#voteNo59").addClass("hidden");
+  });
+});
+
+//60
+$(function() {
+  $("#yes60").on("click", function() {
+    if ($('#voteYes60').hasClass("hidden"))
+      $("#voteYes60").removeClass("hidden");
+    else $("#voteYes60").addClass("hidden");
+  });
+});
+
+$(function() {
+  $("#no60").on("click", function() {
+    if ($('#voteNo60').hasClass("hidden"))
+      $("#voteNo60").removeClass("hidden");
+    else $("#voteNo60").addClass("hidden");
+  });
+});
+
+//61
+$(function() {
+  $("#yes61").on("click", function() {
+    if ($('#voteYes61').hasClass("hidden"))
+      $("#voteYes61").removeClass("hidden");
+    else $("#voteYes61").addClass("hidden");
+  });
+});
+
+$(function() {
+  $("#no61").on("click", function() {
+    if ($('#voteNo61').hasClass("hidden"))
+      $("#voteNo61").removeClass("hidden");
+    else $("#voteNo61").addClass("hidden");
+  });
+});
+
+//62
+$(function() {
+  $("#yes62").on("click", function() {
+    if ($('#voteYes62').hasClass("hidden"))
+      $("#voteYes62").removeClass("hidden");
+    else $("#voteYes62").addClass("hidden");
+  });
+});
+
+$(function() {
+  $("#no62").on("click", function() {
+    if ($('#voteNo62').hasClass("hidden"))
+      $("#voteNo62").removeClass("hidden");
+    else $("#voteNo62").addClass("hidden");
+  });
+});
+
+//63
+$(function() {
+  $("#yes63").on("click", function() {
+    if ($('#voteYes63').hasClass("hidden"))
+      $("#voteYes63").removeClass("hidden");
+    else $("#voteYes63").addClass("hidden");
+  });
+});
+
+$(function() {
+  $("#no63").on("click", function() {
+    if ($('#voteNo63').hasClass("hidden"))
+      $("#voteNo63").removeClass("hidden");
+    else $("#voteNo63").addClass("hidden");
+  });
+});
+
+//64
+$(function() {
+  $("#yes64").on("click", function() {
+    if ($('#voteYes64').hasClass("hidden"))
+      $("#voteYes64").removeClass("hidden");
+    else $("#voteYes64").addClass("hidden");
+  });
+});
+
+$(function() {
+  $("#no64").on("click", function() {
+    if ($('#voteNo64').hasClass("hidden"))
+      $("#voteNo64").removeClass("hidden");
+    else $("#voteNo64").addClass("hidden");
+  });
+});
+
+//65
+$(function() {
+  $("#yes65").on("click", function() {
+    if ($('#voteYes65').hasClass("hidden"))
+      $("#voteYes65").removeClass("hidden");
+    else $("#voteYes65").addClass("hidden");
+  });
+});
+
+$(function() {
+  $("#no65").on("click", function() {
+    if ($('#voteNo65').hasClass("hidden"))
+      $("#voteNo65").removeClass("hidden");
+    else $("#voteNo65").addClass("hidden");
+  });
+});
+
+//66
+$(function() {
+  $("#yes66").on("click", function() {
+    if ($('#voteYes66').hasClass("hidden"))
+      $("#voteYes66").removeClass("hidden");
+    else $("#voteYes66").addClass("hidden");
+  });
+});
+
+$(function() {
+  $("#no66").on("click", function() {
+    if ($('#voteNo66').hasClass("hidden"))
+      $("#voteNo66").removeClass("hidden");
+    else $("#voteNo66").addClass("hidden");
+  });
+});
+
+//67
+$(function() {
+  $("#yes67").on("click", function() {
+    if ($('#voteYes67').hasClass("hidden"))
+      $("#voteYes67").removeClass("hidden");
+    else $("#voteYes67").addClass("hidden");
+  });
+});
+
+$(function() {
+  $("#no67").on("click", function() {
+    if ($('#voteNo67').hasClass("hidden"))
+      $("#voteNo67").removeClass("hidden");
+    else $("#voteNo67").addClass("hidden");
+  });
+});
+
+
+//Table conditional
 //Putting results in Table
   //If "yes" is checked,
     //add green check mark
   //If "no" is checked,
     //add red x mark
-
-//52
-var yes52 = document.querySelector("#yes52");
-yes52.addEventListener("click", voteYes52);
-
-function voteYes52 () {
-  var voteYes52 = document.createElement("div");
-  voteYes52.setAttribute("class", "voteYes");
-
-  var yesText = document.createTextNode("You should vote YES");
-  voteYes52.appendChild(yesText);
-
-  var prop52 = document.querySelector(".prop52");
-  prop52.appendChild(voteYes52);
-}
-
-var no52 = document.querySelector("#no52");
-no51.addEventListener("click", voteNo52);
-
-function voteNo52 () {
-  var voteNo52 = document.createElement("div");
-  voteNo52.setAttribute("class", "voteNo");
-
-  var noText = document.createTextNode("You should vote NO");
-  voteNo52.appendChild(noText);
-
-  var prop52 = document.querySelector(".prop52");
-  prop52.appendChild(voteNo52);
-}
-
-//53
-var yes53 = document.querySelector("#yes53");
-yes53.addEventListener("click", voteYes53);
-
-function voteYes53 () {
-  var voteYes53 = document.createElement("div");
-  voteYes53.setAttribute("class", "voteYes");
-
-  var yesText = document.createTextNode("You should vote YES");
-  voteYes53.appendChild(yesText);
-
-  var prop53 = document.querySelector(".prop53");
-  prop53.appendChild(voteYes51);
-}
-
-var no53 = document.querySelector("#no53");
-no51.addEventListener("click", voteNo53);
-
-function voteNo53 () {
-  var voteNo53 = document.createElement("div");
-  voteNo53.setAttribute("class", "voteNo");
-
-  var noText = document.createTextNode("You should vote NO");
-  voteNo53.appendChild(noText);
-
-  var prop53 = document.querySelector(".prop53");
-  prop53.appendChild(voteNo53);
-}
-
-//54
-var yes54 = document.querySelector("#yes54");
-yes54.addEventListener("click", voteYes54);
-
-function voteYes54 () {
-  var voteYes54 = document.createElement("div");
-  voteYes54.setAttribute("class", "voteYes");
-
-  var yesText = document.createTextNode("You should vote YES");
-  voteYes54.appendChild(yesText);
-
-  var prop54 = document.querySelector(".prop54");
-  prop54.appendChild(voteYes54);
-}
-
-var no54 = document.querySelector("#no54");
-no54.addEventListener("click", voteNo54);
-
-function voteNo54 () {
-  var voteNo54 = document.createElement("div");
-  voteNo54.setAttribute("class", "voteNo");
-
-  var noText = document.createTextNode("You should vote NO");
-  voteNo54.appendChild(noText);
-
-  var prop54 = document.querySelector(".prop54");
-  prop54.appendChild(voteNo54);
-}
-
-//55
-var yes55 = document.querySelector("#yes55");
-yes55.addEventListener("click", voteYes55);
-
-function voteYes55 () {
-  var voteYes55 = document.createElement("div");
-  voteYes55.setAttribute("class", "voteYes");
-
-  var yesText = document.createTextNode("You should vote YES");
-  voteYes55.appendChild(yesText);
-
-  var prop55 = document.querySelector(".prop55");
-  prop55.appendChild(voteYes55);
-}
-
-var no55 = document.querySelector("#no55");
-no55.addEventListener("click", voteNo55);
-
-function voteNo55 () {
-  var voteNo55 = document.createElement("div");
-  voteNo55.setAttribute("class", "voteNo");
-
-  var noText = document.createTextNode("You should vote NO");
-  voteNo55.appendChild(noText);
-
-  var prop55 = document.querySelector(".prop55");
-  prop55.appendChild(voteNo51);
-}
-
-//56
-var yes56 = document.querySelector("#yes56");
-yes56.addEventListener("click", voteYes56);
-
-function voteYes56 () {
-  var voteYes56 = document.createElement("div");
-  voteYes56.setAttribute("class", "voteYes");
-
-  var yesText = document.createTextNode("You should vote YES");
-  voteYes56.appendChild(yesText);
-
-  var prop56 = document.querySelector(".prop56");
-  prop56.appendChild(voteYes56);
-}
-
-var no56 = document.querySelector("#no56");
-no56.addEventListener("click", voteNo56);
-
-function voteNo56 () {
-  var voteNo56 = document.createElement("div");
-  voteNo56.setAttribute("class", "voteNo");
-
-  var noText = document.createTextNode("You should vote NO");
-  voteNo56.appendChild(noText);
-
-  var prop56 = document.querySelector(".prop56");
-  prop56.appendChild(voteNo56);
-}
-
-//57
-var yes57 = document.querySelector("#yes57");
-yes57.addEventListener("click", voteYes57);
-
-function voteYes57 () {
-  var voteYes57 = document.createElement("div");
-  voteYes57.setAttribute("class", "voteYes");
-
-  var yesText = document.createTextNode("You should vote YES");
-  voteYes57.appendChild(yesText);
-
-  var prop57 = document.querySelector(".prop57");
-  prop57.appendChild(voteYes57);
-}
-
-var no57 = document.querySelector("#no57");
-no57.addEventListener("click", voteNo57);
-
-function voteNo57 () {
-  var voteNo57 = document.createElement("div");
-  voteNo57.setAttribute("class", "voteNo");
-
-  var noText = document.createTextNode("You should vote NO");
-  voteNo57.appendChild(noText);
-
-  var prop57 = document.querySelector(".prop57");
-  prop57.appendChild(voteNo57);
-}
-
-//58
-var yes58 = document.querySelector("#yes58");
-yes58.addEventListener("click", voteYes58);
-
-function voteYes58 () {
-  var voteYes58 = document.createElement("div");
-  voteYes58.setAttribute("class", "voteYes");
-
-  var yesText = document.createTextNode("You should vote YES");
-  voteYes58.appendChild(yesText);
-
-  var prop58 = document.querySelector(".prop58");
-  prop58.appendChild(voteYes58);
-}
-
-var no58 = document.querySelector("#no58");
-no58.addEventListener("click", voteNo58);
-
-function voteNo58 () {
-  var voteNo58 = document.createElement("div");
-  voteNo58.setAttribute("class", "voteNo");
-
-  var noText = document.createTextNode("You should vote NO");
-  voteNo58.appendChild(noText);
-
-  var prop58 = document.querySelector(".prop58");
-  prop58.appendChild(voteNo58);
-}
-
-//59
-var yes59 = document.querySelector("#yes59");
-yes59.addEventListener("click", voteYes59);
-
-function voteYes59 () {
-  var voteYes59 = document.createElement("div");
-  voteYes59.setAttribute("class", "voteYes");
-
-  var yesText = document.createTextNode("You should vote YES");
-  voteYes59.appendChild(yesText);
-
-  var prop59 = document.querySelector(".prop59");
-  prop59.appendChild(voteYes59);
-}
-
-var no59 = document.querySelector("#no59");
-no59.addEventListener("click", voteNo59);
-
-function voteNo59 () {
-  var voteNo59 = document.createElement("div");
-  voteNo59.setAttribute("class", "voteNo");
-
-  var noText = document.createTextNode("You should vote NO");
-  voteNo59.appendChild(noText);
-
-  var prop59 = document.querySelector(".prop59");
-  prop59.appendChild(voteNo59);
-}
-
-//60
-var yes60 = document.querySelector("#yes60");
-yes60.addEventListener("click", voteYes60);
-
-function voteYes60 () {
-  var voteYes60 = document.createElement("div");
-  voteYes60.setAttribute("class", "voteYes");
-
-  var yesText = document.createTextNode("You should vote YES");
-  voteYes60.appendChild(yesText);
-
-  var prop60 = document.querySelector(".prop60");
-  prop60.appendChild(voteYes60);
-}
-
-var no60 = document.querySelector("#no60");
-no60.addEventListener("click", voteNo60);
-
-function voteNo60 () {
-  var voteNo60 = document.createElement("div");
-  voteNo60.setAttribute("class", "voteNo");
-
-  var noText = document.createTextNode("You should vote NO");
-  voteNo60.appendChild(noText);
-
-  var prop60 = document.querySelector(".prop60");
-  prop60.appendChild(voteNo60);
-}
-
-//61
-var yes61 = document.querySelector("#yes61");
-yes61.addEventListener("click", voteYes61);
-
-function voteYes61 () {
-  var voteYes61 = document.createElement("div");
-  voteYes61.setAttribute("class", "voteYes");
-
-  var yesText = document.createTextNode("You should vote YES");
-  voteYes61.appendChild(yesText);
-
-  var prop61 = document.querySelector(".prop61");
-  prop61.appendChild(voteYes61);
-}
-
-var no61 = document.querySelector("#no61");
-no61.addEventListener("click", voteNo61);
-
-function voteNo61 () {
-  var voteNo61 = document.createElement("div");
-  voteNo61.setAttribute("class", "voteNo");
-
-  var noText = document.createTextNode("You should vote NO");
-  voteNo61.appendChild(noText);
-
-  var prop61 = document.querySelector(".prop61");
-  prop61.appendChild(voteNo61);
-}
-
-//62
-var yes62 = document.querySelector("#yes62");
-yes62.addEventListener("click", voteYes62);
-
-function voteYes62 () {
-  var voteYes62 = document.createElement("div");
-  voteYes62.setAttribute("class", "voteYes");
-
-  var yesText = document.createTextNode("You should vote YES");
-  voteYes62.appendChild(yesText);
-
-  var prop62 = document.querySelector(".prop62");
-  prop62.appendChild(voteYes62);
-}
-
-var no62 = document.querySelector("#no62");
-no62.addEventListener("click", voteNo62);
-
-function voteNo62 () {
-  var voteNo62 = document.createElement("div");
-  voteNo62.setAttribute("class", "voteNo");
-
-  var noText = document.createTextNode("You should vote NO");
-  voteNo62.appendChild(noText);
-
-  var prop62 = document.querySelector(".prop62");
-  prop62.appendChild(voteNo62);
-}
-
-//63
-var yes63 = document.querySelector("#yes63");
-yes63.addEventListener("click", voteYes63);
-
-function voteYes63 () {
-  var voteYes63 = document.createElement("div");
-  voteYes63.setAttribute("class", "voteYes");
-
-  var yesText = document.createTextNode("You should vote YES");
-  voteYes63.appendChild(yesText);
-
-  var prop63 = document.querySelector(".prop63");
-  prop63.appendChild(voteYes63);
-}
-
-var no63 = document.querySelector("#no63");
-no63.addEventListener("click", voteNo63);
-
-function voteNo63 () {
-  var voteNo63 = document.createElement("div");
-  voteNo63.setAttribute("class", "voteNo");
-
-  var noText = document.createTextNode("You should vote NO");
-  voteNo63.appendChild(noText);
-
-  var prop63 = document.querySelector(".prop63");
-  prop63.appendChild(voteNo63);
-}
-
-//64
-var yes64 = document.querySelector("#yes64");
-yes64.addEventListener("click", voteYes64);
-
-function voteYes64 () {
-  var voteYes64 = document.createElement("div");
-  voteYes64.setAttribute("class", "voteYes");
-
-  var yesText = document.createTextNode("You should vote YES");
-  voteYes64.appendChild(yesText);
-
-  var prop64 = document.querySelector(".prop64");
-  prop64.appendChild(voteYes64);
-}
-
-var no64 = document.querySelector("#no64");
-no64.addEventListener("click", voteNo64);
-
-function voteNo64 () {
-  var voteNo64 = document.createElement("div");
-  voteNo64.setAttribute("class", "voteNo");
-
-  var noText = document.createTextNode("You should vote NO");
-  voteNo64.appendChild(noText);
-
-  var prop64 = document.querySelector(".prop64");
-  prop64.appendChild(voteNo64);
-}
-
-//65
-var yes65 = document.querySelector("#yes65");
-yes65.addEventListener("click", voteYes65);
-
-function voteYes65 () {
-  var voteYes65 = document.createElement("div");
-  voteYes65.setAttribute("class", "voteYes");
-
-  var yesText = document.createTextNode("You should vote YES");
-  voteYes65.appendChild(yesText);
-
-  var prop65 = document.querySelector(".prop65");
-  prop65.appendChild(voteYes65);
-}
-
-var no65 = document.querySelector("#no65");
-no65.addEventListener("click", voteNo65);
-
-function voteNo65 () {
-  var voteNo65 = document.createElement("div");
-  voteNo65.setAttribute("class", "voteNo");
-
-  var noText = document.createTextNode("You should vote NO");
-  voteNo65.appendChild(noText);
-
-  var prop65 = document.querySelector(".prop65");
-  prop65.appendChild(voteNo65);
-}
-
-//66
-var yes66 = document.querySelector("#yes66");
-yes66.addEventListener("click", voteYes66);
-
-function voteYes66 () {
-  var voteYes66 = document.createElement("div");
-  voteYes66.setAttribute("class", "voteYes");
-
-  var yesText = document.createTextNode("You should vote YES");
-  voteYes66.appendChild(yesText);
-
-  var prop66 = document.querySelector(".prop66");
-  prop66.appendChild(voteYes66);
-}
-
-var no66 = document.querySelector("#no66");
-no66.addEventListener("click", voteNo66);
-
-function voteNo66 () {
-  var voteNo66 = document.createElement("div");
-  voteNo66.setAttribute("class", "voteNo");
-
-  var noText = document.createTextNode("You should vote NO");
-  voteNo66.appendChild(noText);
-
-  var prop66 = document.querySelector(".prop66");
-  prop66.appendChild(voteNo66);
-}
-
-//67
-var yes67 = document.querySelector("#yes67");
-yes67.addEventListener("click", voteYes67);
-
-function voteYes67 () {
-  var voteYes67 = document.createElement("div");
-  voteYes67.setAttribute("class", "voteYes");
-
-  var yesText = document.createTextNode("You should vote YES");
-  voteYes67.appendChild(yesText);
-
-  var prop67 = document.querySelector(".prop67");
-  prop67.appendChild(voteYes67);
-}
-
-var no67 = document.querySelector("#no67");
-no67.addEventListener("click", voteNo67);
-
-function voteNo67 () {
-  var voteNo67 = document.createElement("div");
-  voteNo67.setAttribute("class", "voteNo");
-
-  var noText = document.createTextNode("You should vote NO");
-  voteNo67.appendChild(noText);
-
-  var prop67 = document.querySelector(".prop67");
-  prop67.appendChild(voteNo67);
-}
-
-
-//Table conditional
-
 
 //click to enlarge
