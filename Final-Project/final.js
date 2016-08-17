@@ -1,18 +1,40 @@
 //51
   $(function() {
-    $("#yes51").on("click", function() {
-      if ($('#voteYes51').hasClass("hidden"))
-        $("#voteYes51").removeClass("hidden");
-        else $("#voteYes51").addClass("hidden");
-      });
-    });
+    $(".checkbox").click(function() {
+      var show = $(this).data("show");
+      var hide = $(this).data("hide");
+      if (this.checked) {
+        $(show).removeClass("hidden")
+        $(hide).addClass("hidden")
+      }
+    })
+    // $("#yes51").on("click", function() {
+    //   if (this.checked) {
+    //     $('#voteYes51').removeClass("hidden");
+    //     $("#voteNo51").addClass("hidden");
+    //   } else {
+    //     $('#voteYes51').addClass("hidden");
+    //     $("#voteNo51").removeClass("hidden");
+    //   }
+    // });
+    //
+    // $("#no51").on("click", function() {
+    //   if (this.checked) {
+    //     $('#voteYes51').addClass("hidden");
+    //     $("#voteNo51").removeClass("hidden");
+    //   } else {
+    //     $('#voteYes51').removeClass("hidden");
+    //     $("#voteNo51").addClass("hidden");
+    //   }
+    // });
+    // });
 
-    $(function() {
-      $("#no51").on("click", function() {
-        if ($('#voteNo51').hasClass("hidden"))
-        $("#voteNo51").removeClass("hidden");
-        else $("#voteNo51").addClass("hidden");
-      });
+    // $(function() {
+      // $("#no51").on("click", function() {
+        // if ($('#voteNo51').hasClass("hidden"))
+        // $("#voteNo51").toggleClass("hidden");
+        // else $("#voteNo51").addClass("hidden");
+      // });
     });
 
   //Table conditional

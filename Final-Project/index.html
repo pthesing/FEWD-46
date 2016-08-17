@@ -45,15 +45,14 @@
                   <h1>HOW SHOULD I VOTE?</h1>
                   <p>Would you be willing to pay more in taxes to help pay for building schools?</p>
                   <div class = "checkdiv">
-                    <input type="checkbox" class="checkbox" id="yes51"/>
+                    <input type="radio" class="checkbox" name = "prop51" id="yes51" data-show="#voteYes51" data-hide="#voteNo51" data-check="52"/>
                         <label for="yes51" class="yescheck-label">Yes</label>
-                    <input type="checkbox" class="checkbox" id="no51"/>
+                    <input type="radio" class="checkbox" name = "prop51" id="no51" data-show="#voteNo51" data-hide="#voteYes51"/>
                         <label for="no51" class="nocheck-label">No</label>
                   </div>
                   <div class = "voteAlerts">
-                    <div id = "voteYes51" class = "voteYes hidden">You should vote YES
-                    </div>
                     <div id = "voteNo51" class = "voteNo hidden">You should vote NO</div>
+                    <div id = "voteYes51" class = "voteYes hidden">You should vote YES</div>
                 </div>
                 </div>
               </div>
