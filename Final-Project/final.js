@@ -516,44 +516,52 @@
     });
   //Table conditional
     $(function() {
-      $("#yes51").on("click", function() {
-        if ($('#check51').hasClass("hidden"))
-          $("#check51").removeClass("hidden");
-          else $("#check51").addClass("hidden");
+      $("#yes66").on("click", function() {
+        if ($('#check66').hasClass("hidden"))
+          $("#check66").removeClass("hidden");
+          else $("#check66").addClass("hidden");
         });
       });
 
       $(function() {
-        $("#no51").on("click", function() {
-          if ($('#x51').hasClass("hidden"))
-          $("#x51").removeClass("hidden");
-          else $("#x51").addClass("hidden");
+        $("#no66").on("click", function() {
+          if ($('#x66').hasClass("hidden"))
+          $("#x66").removeClass("hidden");
+          else $("#x66").addClass("hidden");
         });
       });
 
 //67
-$(function() {
-  $("#yes67").on("click", function() {
-    if ($('#voteYes67').hasClass("hidden"))
-      $("#voteYes67").removeClass("hidden");
-    else $("#voteYes67").addClass("hidden");
-  });
-});
+  $(function() {
+    $("#yes67").on("click", function() {
+      if ($('#voteYes67').hasClass("hidden"))
+        $("#voteYes67").removeClass("hidden");
+        else $("#voteYes67").addClass("hidden");
+      });
+    });
 
-$(function() {
-  $("#no67").on("click", function() {
-    if ($('#voteNo67').hasClass("hidden"))
-      $("#voteNo67").removeClass("hidden");
-    else $("#voteNo67").addClass("hidden");
-  });
-});
+    $(function() {
+      $("#no67").on("click", function() {
+        if ($('#voteNo67').hasClass("hidden"))
+        $("#voteNo67").removeClass("hidden");
+        else $("#voteNo67").addClass("hidden");
+      });
+    });
+  //Table conditional
+    $(function() {
+      $("#yes67").on("click", function() {
+        if ($('#check67').hasClass("hidden"))
+          $("#check67").removeClass("hidden");
+          else $("#check67").addClass("hidden");
+        });
+      });
 
+      $(function() {
+        $("#no67").on("click", function() {
+          if ($('#x67').hasClass("hidden"))
+          $("#x67").removeClass("hidden");
+          else $("#x67").addClass("hidden");
+        });
+      });
 
-//Table conditional
-//Putting results in Table
-  //If "yes" is checked,
-    //add green check mark
-  //If "no" is checked,
-    //add red x mark
-
-//click to enlarge
+//click to enlarge??
