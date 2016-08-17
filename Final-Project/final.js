@@ -17,6 +17,12 @@ $(function() {
     else $("#voteNo51").addClass("hidden");
   });
 });
+//Table conditional
+//Putting results in Table
+  //If "yes" is checked,
+    //add green check mark
+  //If "no" is checked,
+    //add red x mark
 
 //52
 $(function() {
