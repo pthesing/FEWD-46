@@ -7,7 +7,7 @@ body {
 
 .intro {
   background: url("americanflag.png") fixed center;
-  height: 465px;
+  height: 650px;
   width: 100%;
   margin-bottom: -23px;
 }
@@ -16,6 +16,10 @@ body {
   background-color: rgba(22, 43, 116, 0.6);
   height: 100%;
   width: 100%;
+}
+
+.welcome {
+  padding-top: 5%;
 }
 
 .fa-check-square-o {
