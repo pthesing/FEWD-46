@@ -11,6 +11,8 @@ body {
   text-align: center;
   text-transform: uppercase;
   padding: 40px 15px 10px;
+  letter-spacing: 3px;
+  font-size: 25px;
 }
 
 .left-column {
